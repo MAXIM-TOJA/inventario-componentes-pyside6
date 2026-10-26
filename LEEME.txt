@@ -1,0 +1,18 @@
+Gestión de Inventario de Componentes Electrónicos  -  versión 1.1 (22/10/2026)
+
+CONTENIDO
+  app_inventario.py ........ archivo de arranque (python app_inventario.py)
+  *.py, interfaz\ .......... código de la aplicación, por capas
+  requirements.txt ......... bibliotecas (python -m pip install -r requirements.txt)
+  manuales\ ................ Manual_Inventario (usuario), Manual_Instalacion, Manual_Tecnico (PDF y Word)
+  LICENSE .................. texto de la GNU GPL v3
+  LICENCIAS_DE_TERCEROS.md . licencia de la aplicación y de las bibliotecas (completar el nombre del autor)
+  .gitignore ............... excluye datos, adjuntos, venv y archivos generados al subir a GitHub
+
+INICIO RÁPIDO (Windows, Python 3.13)
+  python -m pip install -r requirements.txt
+  python app_inventario.py
+
+La aplicación usa PySide6 (no PyQt5 ni PyQt6) y pypdfium2 para leer PDF. Los datos se crean junto al programa:
+Base_Inventario\, adjuntos\ y Etiquetas\. Detalles en manuales\Manual_Instalacion.pdf.
+La carpeta manuales puede borrarse de la copia que se lleve al pendrive.

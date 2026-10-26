@@ -1,0 +1,7 @@
+PySide6
+pypdfium2
+reportlab
+qrcode[pil]
+pillow
+pytesseract
+openpyxl

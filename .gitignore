@@ -1,0 +1,32 @@
+# --- Datos propios: NO subir (base de datos, documentos, etiquetas generadas) ---
+Base_Inventario/
+adjuntos/
+Etiquetas/
+*.sqlite3
+*.sqlite3-journal
+*.bak*
+
+# --- Programas de terceros que se instalan aparte ---
+Tesseract-OCR/
+
+# --- Entorno virtual y archivos generados por Python ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# --- Archivos generados al crear el ejecutable con PyInstaller ---
+build/
+dist/
+*.spec
+
+# --- Editor y sistema operativo ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Registros y temporales ---
+*.log
+*.tmp
